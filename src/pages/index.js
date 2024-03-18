@@ -4,7 +4,6 @@ import { AppHeader } from '../components/AppHeader/AppHeader';
 import { CheckContent } from '../components/CheckContent/CheckContent';
 import { Counter } from '../components/Counter/Counter';
 import { DynamicList } from '../components/DynamicList/DynamicList';
-import { SimpleForm } from '../components/SimpleForm/Simpleform';
 import { TitleText } from '../components/TitleText/TitleText';
 const IndexPage = () => (
   <>
@@ -13,7 +12,6 @@ const IndexPage = () => (
     <CheckContent />
     <Counter />
     <DynamicList n={5} />
-    <SimpleForm />
   </>
 );
 

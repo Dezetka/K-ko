@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
-import { button_counter } from "./CheckContent.module.scss";
-import { box } from "./CheckContent.module.scss";
-import { boxed } from "./CheckContent.module.scss";
+import { button_counter } from "./Counter.module.scss";
+import { box } from "./Counter.module.scss";
+import { boxed } from "./Counter.module.scss";
 
 export const Counter = () => {
     const [counter,setCounter] = useState(0)
